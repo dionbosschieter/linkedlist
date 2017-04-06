@@ -1,5 +1,16 @@
 # linkedlist
 
+```c
+struct linkedlist {
+    node *firstitem;
+} typedef linkedlist;
+
+struct node {
+    int number;
+    node *next;
+};
+```
+
 Usage
 -----
 Compile with: ```gcc linkedlist.c -o linkedlist```
